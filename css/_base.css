@@ -1,14 +1,12 @@
-/* ==================
-STYLES FOR ROOT ELEMENTS AND FONTS
-==================*/
-
-@font-face {
-  font-family: "Archivo";
-  src: url("/fonts/Archivo-VariableFont_wdth,wght.ttf") format("ttf"),
-       url("/fonts/Archivo-VariableFont_wdth,wght.ttf") format("ttf");
-}
+/* ===================================================
+STYLES FOR ROOT ELEMENTs
+=====================================================*/
 
 body {
   background-color: var(--main-color);
-  font-family: 'Archivo', sans-serif;
+  font-family: var(--font-regular), sans-serif;
+}
+
+h1 {
+  font-size: 56px;
 }

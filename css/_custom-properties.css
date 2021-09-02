@@ -1,3 +1,25 @@
+/* ===================================================
+FONTS AND VARIABLES
+=====================================================*/
+
+@font-face {
+  font-family: 'Archivo-Regular';
+  src: url("../fonts/Archivo-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Archivo-Bold';
+  src: url("../fonts/Archivo-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Archivo-Thin';
+  src: url("../fonts/Archivo-Thin.woff2") format("woff2");
+}
+
 :root {
-  --main-color:     #474dd9
+  --main-color:     #474dd9;
+  --font-regular:   Archivo-Regular;
+  --font-bold:      Archivo-Bold;
+  --font-thin:      Archivo-Thin;
 }

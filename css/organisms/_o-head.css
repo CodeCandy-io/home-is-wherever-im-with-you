@@ -1,0 +1,21 @@
+/* ===================================================
+HEAD STYLES
+=====================================================*/
+
+.o-head {
+  max-width: 1500px;
+  margin: 96px 16px;
+}
+  
+.o-head .-fs-xxl {
+  margin: 0;
+  letter-spacing: -2px;
+  line-height: 0.85;
+}
+
+  
+@media screen and (min-width: 1000px) {
+  .o-head {
+    margin: 96px 32px;
+  }
+}

@@ -3,10 +3,36 @@ STYLES FOR ROOT ELEMENTs
 =====================================================*/
 
 body {
+  overflow-x: hidden;
+  line-break: anywhere;
   background-color: var(--main-color);
   font-family: var(--font-regular), sans-serif;
 }
 
 h1 {
   font-size: 56px;
+}
+
+/*FONT SIZEZ*/
+.-fs-xxl {
+  font-size: clamp(8px, 14vw, 300px);
+}
+
+/*COLOR*/
+.-c-nuclear {
+  color: var(--nuclear);
+}
+
+.-c-acid {
+  color: var(--acid);
+}
+
+/*MISC*/
+
+.-font-alternative {
+  font-family: var(--font-alternative);
+}
+
+.-uppercase {
+  text-transform: uppercase;
 }

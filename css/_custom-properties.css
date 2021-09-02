@@ -17,9 +17,20 @@ FONTS AND VARIABLES
   src: url("../fonts/Archivo-Thin.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: 'Canela-Regular';
+  src: url("../fonts/Canela-Regular.woff2") format("woff2");
+}
+
 :root {
-  --main-color:     #474dd9;
-  --font-regular:   Archivo-Regular;
-  --font-bold:      Archivo-Bold;
-  --font-thin:      Archivo-Thin;
+  /*FONTS*/
+  --font-regular:     Archivo-Regular;
+  --font-bold:        Archivo-Bold;
+  --font-thin:        Archivo-Thin;
+  --font-alternative: Canela-Regular;
+  
+  /*COLORS*/
+  --main-color:       #474dd9;
+  --nuclear:          #fff;
+  --acid:             #57fb7b;
 }

@@ -1,0 +1,13 @@
+/* ===================================================
+LINK STYLES
+=====================================================*/
+
+.a-link {
+  display: inline-block;
+  font-family: var(--font-thin), sans-serif;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: none;
+}

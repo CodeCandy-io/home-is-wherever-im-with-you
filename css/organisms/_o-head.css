@@ -5,6 +5,7 @@ HEAD STYLES
 .o-head {
   max-width: 1500px;
   margin: 96px 16px;
+  line-break: anywhere;
 }
   
 .o-head .-fs-xxl {
@@ -12,9 +13,8 @@ HEAD STYLES
   letter-spacing: -2px;
   line-height: 0.85;
 }
-
   
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 820px) {
   .o-head {
     margin: 96px 32px;
   }

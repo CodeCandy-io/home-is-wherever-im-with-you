@@ -2,6 +2,12 @@
 STYLES FOR ROOT ELEMENTs
 =====================================================*/
 
+html{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   overflow-x: hidden;
   line-break: anywhere;
@@ -15,10 +21,11 @@ h1 {
 
 /*FONT SIZEZ*/
 .-fs-xxl {
-  font-size: clamp(8px, 14vw, 300px);
+  font-size: clamp(64px, 14vw, 300px);
 }
 
-/*COLOR*/
+/*COLORS*/
+
 .-c-nuclear {
   color: var(--nuclear);
 }

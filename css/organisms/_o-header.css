@@ -1,0 +1,43 @@
+/* ===================================================
+HEADER STYLES
+=====================================================*/
+
+.o-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
+}
+
+.o-header__inner {
+  transition: padding 280ms ease-in-out;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.o-header__logo {
+  margin: 0;
+  max-width: 181px;
+  flex: 1;
+}
+
+.o-header__nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+.o-header__nav-list--anchor {
+  padding: 8px 16px;
+  font-size: var(--fs-m);
+}
+
+@media screen and (min-width: 820px) {
+  .o-header__inner {
+    padding: 32px;
+  }
+}

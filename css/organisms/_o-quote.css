@@ -1,0 +1,45 @@
+/* ===================================================
+QUOTES STYLES
+=====================================================*/
+
+.o-quote__inner {
+  position: relative;
+  text-align: center;
+  margin: 120px 16px;
+}
+
+.o-quote__graphism {
+  position: absolute;
+  right: 16px;
+  left: 16px;
+  height: auto;
+  maargin: 0 auto;
+  z-index: 1;
+}
+
+.o-quote__text {
+  padding-top: 8px;
+  z-index: 2;
+  font-size: var(--fs-m-s);
+}
+
+@media screen and (min-width: 820px) {
+  .o-quote {
+    margin: 220px auto;
+  }
+
+  .o-quote__inner {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .o-quote__graphism {
+    right: 0;
+    left: 0;
+  }
+
+  .o-quote__text {
+    padding-top: 16px;
+    font-size: var(--fs-m-l);
+  }
+}

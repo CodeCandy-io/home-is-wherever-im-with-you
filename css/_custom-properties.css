@@ -33,4 +33,10 @@ FONTS AND VARIABLES
   --main-color:       #474dd9;
   --nuclear:          #fff;
   --acid:             #57fb7b;
+
+  /*SIZEZ*/
+
+  --fs-m-s:           21px;
+  --fs-m:             24px;
+  --fs-m-l:           32px;
 }

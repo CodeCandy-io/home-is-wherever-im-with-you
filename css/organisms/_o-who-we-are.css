@@ -1,0 +1,50 @@
+/* ===================================================
+What we do section styles
+=====================================================*/
+
+.o-who-we-are {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  line-break: normal;
+}
+
+.o-who-we-are--title {
+  padding-right: 33.3%;
+  font-size: var(--fs-l-s);
+}
+
+.o-who-we-are--description {
+  font-size: var(--fs-m);
+  font-family: var(--font-thin), sans-serif;
+  line-height: 1.33;
+}
+
+.o-who-we-are--description p:first-child {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1063px) {
+  .o-who-we-are {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1063px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .o-who-we-are--title {
+    max-width: 280px;
+    margin: 0;
+    padding-right: 16px;
+    font-size: var(--fs-l-l);
+    text-align: right;
+  }
+
+  .o-who-we-are--description {
+    max-width: 512px;
+    margin: 0;
+    padding-left: 16px;
+    font-size: var(--fs-m-l);
+  }
+}

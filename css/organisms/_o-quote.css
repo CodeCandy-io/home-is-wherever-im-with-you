@@ -13,7 +13,7 @@ QUOTES STYLES
   right: 16px;
   left: 16px;
   height: auto;
-  maargin: 0 auto;
+  margin: 0 auto;
   z-index: 1;
 }
 
@@ -25,7 +25,7 @@ QUOTES STYLES
 
 @media screen and (min-width: 820px) {
   .o-quote {
-    margin: 220px auto;
+    margin: 420px auto;
   }
 
   .o-quote__inner {

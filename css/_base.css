@@ -10,7 +10,6 @@ html{
 
 body {
   overflow-x: hidden;
-  line-break: anywhere;
   background-color: var(--main-color);
   font-family: var(--font-regular), sans-serif;
 }

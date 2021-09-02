@@ -42,4 +42,9 @@ FONTS AND VARIABLES
   --fs-l-s:           40px;
   --fs-l:             48px;
   --fs-l-l:           56px;
+  --fs-xl-s:          64px;
+  --fs-xl-l:          72px;
+  --fs-xl-xl:         80px;
+  --fs-xxl-s:         88px;
+  --fs-xxl-m:         96px;
 }

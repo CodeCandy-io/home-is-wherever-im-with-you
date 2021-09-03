@@ -1,0 +1,49 @@
+/* ===================================================
+What can we do section styles
+=====================================================*/
+
+.o-skills {
+  padding: 120px 16px;
+}
+
+.o-skills__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.o-skills__list {
+  padding: 0;
+  font-size: var(--fs-m-s);
+}
+
+.o-skills__list--item {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.o-skills__description {
+  font-size: var(--fs-m);
+  font-family: var(--font-thin), sans-serif;
+  line-height: 1.33;
+}
+
+@media screen and (min-width: 1060px) {
+  .o-skills {
+    padding: 320px 32px;
+  }
+
+  .o-skills__wrapper {
+    flex-direction: row;
+  }
+
+  .o-skills__list {
+    flex: 2;
+    font-size: var(--fs-l-s);
+  }
+
+  .o-skills__description {
+    flex: 1;
+    padding-left: 80px;
+    font-size: var(--fs-m-l);
+  }
+}

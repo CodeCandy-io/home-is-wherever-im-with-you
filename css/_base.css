@@ -33,6 +33,10 @@ h1 {
   color: var(--acid);
 }
 
+.-c-main {
+  color: var(--main-color);
+}
+
 /*MISC*/
 
 .-font-alternative {
@@ -41,4 +45,9 @@ h1 {
 
 .-uppercase {
   text-transform: uppercase;
+}
+
+.-inverted {
+  background-color: var(--nuclear);
+  color: var(--main-color);
 }

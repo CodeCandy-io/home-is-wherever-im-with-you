@@ -17,10 +17,25 @@ QUOTES STYLES
   z-index: 1;
 }
 
+.o-quote__graphism--circle {
+  max-width: 280px;
+  opacity: 0.6;
+}
+
 .o-quote__text {
   padding-top: 8px;
   z-index: 2;
   font-size: var(--fs-m-s);
+}
+
+.o-quote__text--circle {
+  padding-top: 25%;
+}
+
+@media screen and (min-width: 520px) {
+  .o-quote__text--circle {
+    padding-top: 20%;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -38,8 +53,18 @@ QUOTES STYLES
     left: 0;
   }
 
+  .o-quote__graphism--circle {
+    max-width: 380px;
+  }
+  
   .o-quote__text {
     padding-top: 16px;
     font-size: var(--fs-m-l);
   }
+
+  .o-quote__text--circle {
+    font-size: var(--fs-l-s);
+    line-height: 1.33;
+    padding-top: 16%;
+  }  
 }

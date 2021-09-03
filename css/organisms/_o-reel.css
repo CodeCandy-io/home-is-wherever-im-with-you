@@ -13,10 +13,36 @@ Showcase  styles
   font-family: var(--font-thin);
 }
 
+.o-reel--title-reset {
+  margin: 0;
+}
+
 .o-reel__showcase {
   display: flex;
   flex-direction: column;
 }
+
+.o-reel__showcase--graphic {
+  position: relative;
+}
+
+.o-reel__showcase--description .-acided {
+  padding: 32px;
+  font-size: var(--fs-m);
+  line-height: 1.33;
+}
+
+.o-reel--pill {
+  animation: blink 1s infinite;
+  position: absolute;
+  top: 80px;
+  left: 72px;
+  transform: rotate(-10deg);
+  font-family: var(--font-bold);
+  font-size: var(--fs-m-l);
+  text-align: center;
+}
+
 
 @media screen and (min-width: 1063px) {
   .o-reel {
@@ -42,5 +68,17 @@ Showcase  styles
     transform: rotate(-90deg);
     transform-origin: bottom right;
     margin: 0;
+  }
+
+  .o-reel__showcase--description {
+    max-width: 720px;
+    margin-top: 120px;
+    padding: 0 16px;
+    font-size: var(--fs-m-l);
+  }
+
+  .o-reel__showcase--description .-acided {
+    padding: 64px;
+    font-size: var(--fs-l);
   }
 }

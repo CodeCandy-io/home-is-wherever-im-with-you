@@ -10,6 +10,7 @@ FONTS AND VARIABLES
 @font-face {
   font-family: 'Archivo-Bold';
   src: url("../fonts/Archivo-Bold.woff2") format("woff2");
+  font-weight: bold;
 }
 
 @font-face {

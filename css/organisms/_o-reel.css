@@ -13,6 +13,11 @@ Showcase  styles
   font-family: var(--font-thin);
 }
 
+.o-reel__showcase {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 1063px) {
   .o-reel {
     margin: 320px 0;
@@ -22,5 +27,20 @@ Showcase  styles
   .o-reel--title {
     width:66.6%;
     font-size: var(--fs-xxl-m);
+  }
+
+  .o-reel__showcase {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .o-reel__showcase--wrapper {
+    padding: 0 16px 0 0;
+  }
+
+  .o-reel__showcase--footnote {
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+    margin: 0;
   }
 }

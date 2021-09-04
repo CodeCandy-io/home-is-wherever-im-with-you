@@ -41,6 +41,7 @@ h1 {
 
 .-font-alternative {
   font-family: var(--font-alternative);
+  font-style: italic;
 }
 
 .-uppercase {

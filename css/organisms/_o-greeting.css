@@ -54,6 +54,10 @@
 }
 
 @media screen and (min-width: 720px) {
+  .o-greeting {
+    padding: 32px 32px 120px;
+  }
+  
   .o-greeting__hand--pill {
     font-size: var(--fs-m-l);
   }

@@ -37,6 +37,8 @@ FONTS AND VARIABLES
 
   /*SIZEZ*/
 
+  --fs-s-m:           14px;
+  --fs-s-l:           16px;
   --fs-m-s:           21px;
   --fs-m:             24px;
   --fs-m-l:           32px;

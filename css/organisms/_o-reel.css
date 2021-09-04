@@ -24,6 +24,7 @@ Showcase  styles
 
 .o-reel__showcase--graphic {
   position: relative;
+  display: none;
 }
 
 .o-reel__showcase--description .-acided {
@@ -43,18 +44,7 @@ Showcase  styles
   text-align: center;
 }
 
-
-@media screen and (min-width: 1063px) {
-  .o-reel {
-    margin: 320px 0;
-    padding: 0 32px;
-  }
-
-  .o-reel--title {
-    width:66.6%;
-    font-size: var(--fs-xxl-m);
-  }
-
+@media screen and (min-width: 720px) {
   .o-reel__showcase {
     flex-direction: row;
     justify-content: flex-end;
@@ -75,6 +65,22 @@ Showcase  styles
     margin-top: 120px;
     padding: 0 16px;
     font-size: var(--fs-m-l);
+  }
+
+  .o-reel__showcase--graphic {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1063px) {
+  .o-reel {
+    margin: 320px 0;
+    padding: 0 32px;
+  }
+
+  .o-reel--title {
+    width:66.6%;
+    font-size: var(--fs-xxl-m);
   }
 
   .o-reel__showcase--description .-acided {

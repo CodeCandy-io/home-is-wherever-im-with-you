@@ -3,7 +3,7 @@ HEAD STYLES
 =====================================================*/
 
 .o-head {
-  max-width: 1500px;
+  max-width: 330px;
   margin: 96px 16px;
   line-break: anywhere;
 }
@@ -13,9 +13,24 @@ HEAD STYLES
   letter-spacing: -2px;
   line-height: 0.85;
 }
+
+@media screen and (min-width: 320px) {
+  .o-head {
+    max-width: 520px;
+    margin: 96px 16px;
+    line-break: anywhere;
+  }
+}
   
 @media screen and (min-width: 820px) {
   .o-head {
+    max-width: 1000px;
     margin: 96px 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .o-head {
+    max-width: 1500px;
   }
 }

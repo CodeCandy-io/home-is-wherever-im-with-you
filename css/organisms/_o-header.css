@@ -25,13 +25,20 @@ HEADER STYLES
 }
 
 .o-header__nav-list {
-  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex: 2;
+  display: none;
 }
 
 .o-header__nav-list--anchor {
   padding: 8px 16px;
   font-size: var(--fs-m);
+}
+
+
+@media screen and (min-width: 820px) {
+  .o-header__nav-list {
+    display: flex;
+  }
 }

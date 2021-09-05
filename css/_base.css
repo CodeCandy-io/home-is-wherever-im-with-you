@@ -65,3 +65,14 @@ h1 {
 	49%{opacity: 0}
 	50% {opacity: 1}
 }
+
+.-fade-in {
+  transition: all 220ms ease-in-out;
+  transform: translateY(132px);
+  opacity: 0;
+}
+
+.-reveal {
+  transform: translateY(0);
+  opacity: 1;
+}

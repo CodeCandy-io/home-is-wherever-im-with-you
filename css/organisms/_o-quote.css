@@ -2,6 +2,10 @@
 QUOTES STYLES
 =====================================================*/
 
+.o-quote {
+  position: relative;
+}
+
 .o-quote__inner {
   position: relative;
   text-align: center;
@@ -40,7 +44,7 @@ QUOTES STYLES
 
 @media screen and (min-width: 820px) {
   .o-quote {
-    margin: 420px auto;
+    padding: 420px 0;
   }
 
   .o-quote__inner {

@@ -19,9 +19,19 @@ HEADER STYLES
 }
 
 .o-header__logo {
+  display: flex;
+  flex-direction: row;
   margin: 0;
-  max-width: 181px;
+  max-width: 281px;
   flex: 1;
+}
+
+.o-header__logo--icon {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  margin-right: 8px;
 }
 
 .o-header__nav-list {
@@ -35,7 +45,6 @@ HEADER STYLES
   padding: 8px 16px;
   font-size: var(--fs-m);
 }
-
 
 @media screen and (min-width: 820px) {
   .o-header__nav-list {

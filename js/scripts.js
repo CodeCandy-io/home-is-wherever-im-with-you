@@ -4,7 +4,7 @@ $(window).on('scroll', function() {
   $('.-fade-in').each(function() {
       var topDistance = $(this).offset().top;
 
-      if ( (topDistance-700) < scrollTop ) {
+      if ( (topDistance-850) < scrollTop ) {
         $(this).addClass('-reveal');
       } else {
         $(this).removeClass('-reveal');

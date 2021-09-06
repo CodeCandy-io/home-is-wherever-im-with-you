@@ -58,6 +58,17 @@ h1 {
   color: var(--main-color);
 }
 
+.-fade-in {
+  transition: all 320ms ease-in-out;
+  transform: translateY(132px);
+  opacity: 0;
+}
+
+.-reveal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /*ANIMATIONS*/
 
 @keyframes blink {
@@ -66,13 +77,18 @@ h1 {
 	50% {opacity: 1}
 }
 
-.-fade-in {
-  transition: all 220ms ease-in-out;
-  transform: translateY(132px);
-  opacity: 0;
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
 
-.-reveal {
-  transform: translateY(0);
-  opacity: 1;
+
+@keyframes dwall {
+  0% {transform:translateY(0);}
+  49% {transform:translateY(320px);}
+  100% { transform:translateY(0);}
 }

@@ -28,7 +28,6 @@ What we do section styles
   .o-who-we-are {
     flex-direction: row;
     justify-content: center;
-    max-width: 1063px;
     margin: 0 auto;
     padding: 0;
   }

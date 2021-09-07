@@ -49,7 +49,27 @@ h1 {
 .-font-alternative {
   font-family: var(--font-alternative);
   font-style: italic;
+  font-weight: 100;
 }
+
+.-font-alternative--contracted {
+  letter-spacing: -5px;
+}
+
+@media screen and (min-width: 1000px) {
+  .-font-alternative--contracted  {
+    letter-spacing: -15px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .-font-alternative--contracted  {
+    letter-spacing: -20px;
+  }
+}
+
+
+
 
 .-uppercase {
   text-transform: uppercase;

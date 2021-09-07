@@ -2,7 +2,7 @@
 STYLES FOR ROOT ELEMENTs
 =====================================================*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -12,6 +12,13 @@ body {
   overflow-x: hidden;
   background-color: var(--main-color);
   font-family: var(--font-regular), sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 h1 {

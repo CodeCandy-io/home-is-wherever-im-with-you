@@ -69,7 +69,7 @@
 
 @media screen and (min-width: 720px) {
   .o-footer {
-    padding: 120px 64px;
+    padding: 120px 64px 32px;
   }
 
   .o-footer__wrapper {

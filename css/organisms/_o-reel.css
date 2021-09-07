@@ -45,6 +45,11 @@ Showcase  styles
 }
 
 @media screen and (min-width: 720px) {
+  .o-reel--expand {
+    margin: 320px 0 120px;
+    padding: 0 32px;
+  }
+
   .o-reel__showcase {
     flex-direction: row;
     justify-content: flex-end;
@@ -74,7 +79,7 @@ Showcase  styles
 
 @media screen and (min-width: 1063px) {
   .o-reel {
-    margin: 320px 0;
+    margin: 0 auto 120px;
     padding: 0 32px;
   }
 

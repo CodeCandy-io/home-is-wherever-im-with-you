@@ -3,6 +3,7 @@ HEAD STYLES
 =====================================================*/
 
 .o-head {
+  position: relative;
   max-width: 330px;
   margin: 96px 16px;
   line-break: anywhere;

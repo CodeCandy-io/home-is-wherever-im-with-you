@@ -1,6 +1,7 @@
 .o-footer {
   padding: 64px 32px;
   font-size: var(--fs-m-l);
+  line-break: auto;
 }
 
 .o-footer .a-label:first-child {

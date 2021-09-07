@@ -1,0 +1,41 @@
+.a-candy-icon {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  animation-name: dwall;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.a-candy-icon--top-xs {
+  top: 10%;
+}
+
+.a-candy-icon--top-m {
+  top: 45%;
+}
+
+.a-candy-icon--top-l {
+  top: 85%;
+}
+
+.a-candy-icon--left-xs {
+  left: 5%;
+}
+
+.a-candy-icon--left-m {
+  left: 45%;
+}
+
+.a-candy-icon--left-l {
+  left: 95%;
+}
+
+@media screen and (min-width: 1063px) {
+  .a-candy-icon {
+    position: absolute;
+    width: 56px;
+    height: auto;
+  }
+}

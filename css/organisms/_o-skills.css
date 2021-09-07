@@ -29,7 +29,7 @@ What can we do section styles
 
 @media screen and (min-width: 1060px) {
   .o-skills {
-    padding: 320px 32px;
+    padding: 120px 32px 220px;
   }
 
   .o-skills__wrapper {

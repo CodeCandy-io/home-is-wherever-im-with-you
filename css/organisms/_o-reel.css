@@ -7,6 +7,11 @@ Showcase  styles
   padding: 0 16px;
 }
 
+.o-reel--expand {
+  background-image:linear-gradient(180deg, #474dd9 0 85%, #fff 15% 100%);
+  background-repeat: no-repeat;
+}
+
 .o-reel--title {
   margin-top: 0;
   font-size: var(--fs-l-l);
@@ -46,8 +51,8 @@ Showcase  styles
 
 @media screen and (min-width: 720px) {
   .o-reel--expand {
-    margin: 320px 0 120px;
-    padding: 0 32px;
+    margin: 320px 0 0;
+    padding: 0 32px 120px;
   }
 
   .o-reel__showcase {

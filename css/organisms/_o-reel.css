@@ -8,7 +8,7 @@ Showcase  styles
 }
 
 .o-reel--expand {
-  background-image:linear-gradient(180deg, #474dd9 0 85%, #fff 15% 100%);
+  background-image:linear-gradient(180deg, var(--main-color) 0 85%, #fff 15% 100%);
   background-repeat: no-repeat;
 }
 

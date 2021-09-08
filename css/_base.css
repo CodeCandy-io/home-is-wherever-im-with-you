@@ -14,6 +14,16 @@ body {
   font-family: var(--font-regular), sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--acid);
+  border-radius: 25px;
+  border: 4px solid var(--main-color);
+}
+
 html,
 body {
   width: 100%;

@@ -8,6 +8,7 @@ Showcase  styles
 }
 
 .o-reel--expand {
+  margin-bottom: 0;
   background-image:linear-gradient(180deg, var(--main-color) 0 85%, #fff 15% 100%);
   background-repeat: no-repeat;
 }
@@ -86,6 +87,11 @@ Showcase  styles
   .o-reel {
     margin: 0 auto 120px;
     padding: 0 32px;
+  }
+
+  .o-reel--expand {
+    margin: 320px 0 0;
+    padding: 0 32px 120px;
   }
 
   .o-reel--title {

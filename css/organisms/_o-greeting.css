@@ -3,11 +3,23 @@
   padding: 32px;
 }
 
+.o-greeting--canvas {
+  transform: scale(2);
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 220px;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .o-greeting p {
   margin: 0;
 }
 
 .o-greeting__hand {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,14 +35,17 @@
 }
 
 .o-greeting__hand--icon {
+  appearance: none;
   transition: transform 200ms ease-in-out;
   transform: rotate(-13deg);
-  margin-top: 120px;
+  margin-top: 200px;
   margin-left: 16px;
+  border: none;
+  background-color: transparent;
 }
 
 .o-greeting__hand--icon img {
-  max-width: 120px;
+  max-width: 200px;
   height: auto;
 }
 

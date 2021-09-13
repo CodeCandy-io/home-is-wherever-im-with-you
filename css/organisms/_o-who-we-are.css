@@ -9,6 +9,11 @@ What we do section styles
   line-break: normal;
 }
 
+.o-who-we-are img {
+  width: 56px;
+}
+
+
 .o-who-we-are--title {
   padding-right: 33.3%;
   font-size: var(--fs-l-s);

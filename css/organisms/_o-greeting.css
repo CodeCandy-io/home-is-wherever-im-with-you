@@ -42,6 +42,7 @@
   margin-left: 16px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .o-greeting__hand--icon img {

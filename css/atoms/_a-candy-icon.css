@@ -8,6 +8,10 @@
   animation-timing-function: linear; 
 }
 
+.a-candy-icon--top-xxs {
+  top: 2%;
+}
+
 .a-candy-icon--top-xs {
   top: 10%;
 }
@@ -16,21 +20,39 @@
   top: 45%;
 }
 
+.a-candy-icon--top-ls {
+  top: 65%;
+}
+
 .a-candy-icon--top-l {
   top: 85%;
 }
 
+.a-candy-icon--top-xl {
+  top: 98%;
+}
+
+
 .a-candy-icon--left-xs {
   left: 5%;
+}
+
+.a-candy-icon--left-s {
+  left: 10%;
 }
 
 .a-candy-icon--left-m {
   left: 45%;
 }
 
+.a-candy-icon--left-lm {
+  left: 70%;
+}
+
 .a-candy-icon--left-l {
   left: 95%;
 }
+
 
 @media screen and (min-width: 1063px) {
   .a-candy-icon {

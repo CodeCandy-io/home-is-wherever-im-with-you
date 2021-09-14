@@ -52,6 +52,10 @@ QUOTES STYLES
     margin: 0 auto;
   }
 
+  .o-quote__inner--xl {
+    max-width: 720px;
+  }
+
   .o-quote__graphism {
     right: 0;
     left: 0;
@@ -69,6 +73,6 @@ QUOTES STYLES
   .o-quote__text--circle {
     font-size: var(--fs-l-s);
     line-height: 1.33;
-    padding-top: 16%;
+    padding-top: 10%;
   }  
 }

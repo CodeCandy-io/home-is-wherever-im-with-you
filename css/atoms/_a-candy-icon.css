@@ -9,6 +9,7 @@
 }
 
 .a-candy-icon--top-xxs {
+  animation-delay: 150ms;
   top: 2%;
 }
 
@@ -17,22 +18,27 @@
 }
 
 .a-candy-icon--top-s {
+  animation-delay: 300ms;
   top: 25%;
 }
 
 .a-candy-icon--top-m {
+  animation-delay: 670ms;
   top: 45%;
 }
 
 .a-candy-icon--top-ls {
+  animation-delay: 900ms;
   top: 65%;
 }
 
 .a-candy-icon--top-l {
+  animation-delay:1200ms;
   top: 85%;
 }
 
 .a-candy-icon--top-xl {
+  animation-delay: 93ms;
   top: 98%;
 }
 

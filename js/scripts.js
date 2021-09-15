@@ -1,19 +1,19 @@
-$(window).on('scroll', function() {
-  var scrollTop = $(this).scrollTop();
-  $('.-fade-in').each(function() {
-      var topDistance = $(this).offset().top;
+function scrollFades(){
+  $(window).on('scroll', function() {
+    var scrollTop = $(this).scrollTop();
+    $('.-fade-in').each(function() {
+        var topDistance = $(this).offset().top;
 
-      if ( (topDistance-850) < scrollTop ) {
-        $(this).addClass('-reveal');
-      } else {
-        $(this).removeClass('-reveal');
-      }
+        if ( (topDistance-850) < scrollTop ) {
+          $(this).addClass('-reveal');
+        } else {
+          $(this).removeClass('-reveal');
+        }
+    });
   });
-});
+}
 
-
-$( document ).ready(function() {
-
+function highFive(){
   // ammount to add on each button press
   const confettiCount = 20
   const sequinCount = 10
@@ -252,5 +252,32 @@ $( document ).ready(function() {
   // kick off the render loop
   window.initBurst()
   render()
+}
 
-});
+function clickAnchor(){
+  $(".js-what-we-do-trigger").click(function() {
+    $('html, body').animate({
+      scrollTop: $(".js-what-we-do-anchor").offset().top
+    }, 2000);
+  });
+
+  $(".js-why-trigger").click(function() {
+    $('html, body').animate({
+      scrollTop: $(".js-why-anchor").offset().top
+    }, 2000);
+  });
+
+  $(".js-contact-trigger").click(function() {
+    $('html, body').animate({
+      scrollTop: $(".js-contact-anchor").offset().top
+    }, 2000);
+  });
+}
+
+
+$(document).ready(function(){
+  // we call the function
+  scrollFades();
+  highFive();
+  clickAnchor();
+})

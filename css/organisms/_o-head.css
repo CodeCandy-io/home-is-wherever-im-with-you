@@ -15,6 +15,23 @@ HEAD STYLES
   line-height: 0.85;
 }
 
+.o-head__scroll-hint {
+  display: none;
+}
+
+.o-head__scroll-hint--image {
+  animation-name: spin;
+  animation-duration: 30000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.o-head__scroll-hint--arrow {
+  position: absolute;
+  left: 110px;
+  top: 80px;
+}
+
 @media screen and (min-width: 320px) {
   .o-head {
     max-width: 520px;
@@ -28,10 +45,29 @@ HEAD STYLES
     max-width: 1000px;
     margin: 96px 32px;
   }
+
+  .o-head__scroll-hint {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .o-head__scroll-hint {
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .o-head {
     max-width: 1500px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .o-head__scroll-hint {
+    right: -9%;
   }
 }

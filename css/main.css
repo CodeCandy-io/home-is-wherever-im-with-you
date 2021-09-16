@@ -1,5 +1,5 @@
-@import "_reset.css";
-@import "_custom-properties.css";
-@import "_base.css";
-@import "organisms/_organisms.css";
-@import "atoms/_atoms.css";
+@import "./_reset.css";
+@import "./_custom-properties.css";
+@import "./_base.css";
+@import "./organisms/_organisms.css";
+@import "./atoms/_atoms.css";

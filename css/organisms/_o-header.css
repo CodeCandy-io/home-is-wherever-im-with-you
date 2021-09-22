@@ -8,6 +8,7 @@ HEADER STYLES
   right: 0;
   left: auto;
   width: 100%;
+  z-index: 500;
 }
 
 .o-header__inner {

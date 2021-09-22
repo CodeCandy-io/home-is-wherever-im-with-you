@@ -84,7 +84,11 @@
 
   .o-greeting__hand--icon:hover {
     transform: scale(1.2);
-  }  
+  }
+
+  .o-greeting__hand--icon:active {
+    transform: scale(0.1);
+  }
 
   .o-greeting__hand--icon img {
     max-width: 280px;

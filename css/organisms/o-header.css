@@ -17,6 +17,7 @@ HEADER STYLES
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .o-header__logo {
@@ -25,6 +26,7 @@ HEADER STYLES
   margin: 0;
   max-width: 281px;
   flex: 1;
+  justify-content: center;
 }
 
 .o-header__logo--icon {
@@ -48,6 +50,13 @@ HEADER STYLES
 }
 
 @media screen and (min-width: 820px) {
+  .o-header__inner {
+    justify-content: unset;
+  }
+  .o-header__logo {
+    justify-content: left;
+  }
+
   .o-header__nav-list {
     display: flex;
   }

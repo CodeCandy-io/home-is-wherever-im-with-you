@@ -73,11 +73,15 @@ h1 {
   }
 
   .-fs-xxl {
-    font-size: 12rem;
+    font-size: 9rem;
   }
 }
 
 @media screen and (min-width: 1000px) {
+
+  .-fs-xxl {
+    font-size: 12rem;
+  }
   
   .-font-alternative--contracted  {
     letter-spacing: -15px;

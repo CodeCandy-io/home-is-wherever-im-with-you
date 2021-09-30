@@ -59,6 +59,7 @@
 .o-footer__credits--logo img {
   display: inline-block;
   margin-right: 18px;
+  margin-bottom: 32px;
 }
 
 .o-footer__credits--copyright {
@@ -97,6 +98,10 @@
   .o-footer__credits--logo {
     flex-direction: row;
     margin-top: 0;
+  }
+  
+  .o-footer__credits--logo img {
+    margin-bottom: 0;
   }
 
   .o-footer__credits--copyright {

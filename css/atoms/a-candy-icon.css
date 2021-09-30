@@ -5,12 +5,15 @@
   animation-name: dwall;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;  
+  animation-timing-function: linear;
+  z-index: -1;
+  opacity: 0.8;
 
   @media screen and (min-width: 720px) {
     animation-name: dwallDesktop;
     animation-duration: 30000ms;
-
+    z-index: 1;
+    opacity: 1;
   }
 }
 
@@ -48,7 +51,6 @@
   top: 98%;
 }
 
-
 .a-candy-icon--left-xs {
   left: 5%;
 }
@@ -66,7 +68,13 @@
 }
 
 .a-candy-icon--left-l {
-  left: 95%;
+  left: 85%;
+}
+
+@media screen and (min-width: 720px) {
+  .a-candy-icon--left-l {
+    left: 95%;
+  }
 }
 
 @media screen and (min-width: 1063px) {

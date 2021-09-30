@@ -3,9 +3,15 @@
   width: 40px;
   height: auto;
   animation-name: dwall;
-  animation-duration: 30000ms;
+  animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;  
+
+  @media screen and (min-width: 720px) {
+    animation-name: dwallDesktop;
+    animation-duration: 30000ms;
+
+  }
 }
 
 .a-candy-icon--top-xxs {

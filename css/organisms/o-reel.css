@@ -50,6 +50,10 @@ Showcase  styles
   text-align: center;
 }
 
+.o-reel__showcase--footnote {
+  display: none;
+}
+
 .o-reel__showcase--poster {
   width: 100%;
   height: auto;

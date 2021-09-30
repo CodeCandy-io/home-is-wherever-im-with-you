@@ -73,6 +73,8 @@ Showcase  styles
   .o-reel__showcase--footnote {
     transform: rotate(-90deg);
     transform-origin: bottom right;
+    max-width: 420px;
+    text-align: right;
     margin: 0;
   }
 

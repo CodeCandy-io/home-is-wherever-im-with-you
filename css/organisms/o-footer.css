@@ -62,7 +62,6 @@
 }
 
 .o-footer__credits--copyright {
-  text-align: right;
   flex: 2;
   margin-top: 32px;
 }
@@ -102,5 +101,6 @@
 
   .o-footer__credits--copyright {
     margin-top: 0;
+    text-align: right;
   }
 }

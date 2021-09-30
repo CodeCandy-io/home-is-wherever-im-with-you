@@ -8,11 +8,19 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+@keyframes noiseGEn {
+  0% { background-position: 100% 100%; }
+  100% {  background-position: 105% 105%;  }
+}
+
 body {
   overflow-x: hidden;
   background-color: var(--main-color);
   font-family: var(--font-regular), sans-serif;
   text-align: center;
+  background-image: url("../images/bg-pttrn.png");
+  background-repeat: repeat;
+  animation: noiseGEn 82ms infinite;
 }
 
 body::-webkit-scrollbar {

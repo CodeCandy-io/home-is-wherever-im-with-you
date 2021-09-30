@@ -50,4 +50,8 @@ What we do section styles
     padding-left: 16px;
     font-size: var(--fs-m-l);
   }
+
+  .o-who-we-are--description .-acided {
+    font-size: var(--fs-m-l);   
+  }
 }

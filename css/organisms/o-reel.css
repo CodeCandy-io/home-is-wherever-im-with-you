@@ -9,7 +9,7 @@ Showcase  styles
 
 .o-reel--expand {
   margin-bottom: 0;
-  background-image:linear-gradient(180deg, var(--main-color) 0 85%, #fff 15% 100%);
+  background-image:linear-gradient(180deg, transparent 0 85%, #fff 15% 100%);
   background-repeat: no-repeat;
 }
 
@@ -89,6 +89,11 @@ Showcase  styles
     font-size: var(--fs-m-l);
   }
 
+  .o-reel__showcase--poster {
+    width: auto;
+    height: auto;
+  }
+
   .o-reel__showcase--graphic {
     display: block;
   }
@@ -112,6 +117,6 @@ Showcase  styles
 
   .o-reel__showcase--description .-acided {
     padding: 64px;
-    font-size: var(--fs-l);
+    font-size: var(--fs-m-l);
   }
 }

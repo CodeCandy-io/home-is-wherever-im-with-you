@@ -50,6 +50,15 @@ Showcase  styles
   text-align: center;
 }
 
+.o-reel__showcase--footnote {
+  display: none;
+}
+
+.o-reel__showcase--poster {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 720px) {
   .o-reel--expand {
     margin: 320px 0 0;
@@ -68,6 +77,8 @@ Showcase  styles
   .o-reel__showcase--footnote {
     transform: rotate(-90deg);
     transform-origin: bottom right;
+    max-width: 420px;
+    text-align: right;
     margin: 0;
   }
 

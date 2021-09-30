@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   background-color: var(--main-color);
   font-family: var(--font-regular), sans-serif;
+  text-align: center;
 }
 
 body::-webkit-scrollbar {
@@ -37,7 +38,7 @@ h1 {
 
 /*FONT SIZEZ*/
 .-fs-xxl {
-  font-size: clamp(64px, 14vw, 300px);
+  font-size: 4rem
 }
 
 /*COLORS*/
@@ -66,7 +67,22 @@ h1 {
   letter-spacing: -5px;
 }
 
+@media screen and (min-width: 720px) {
+  body {
+    text-align: unset;
+  }
+
+  .-fs-xxl {
+    font-size: 9rem;
+  }
+}
+
 @media screen and (min-width: 1000px) {
+
+  .-fs-xxl {
+    font-size: 12rem;
+  }
+  
   .-font-alternative--contracted  {
     letter-spacing: -15px;
   }
@@ -76,10 +92,11 @@ h1 {
   .-font-alternative--contracted  {
     letter-spacing: -20px;
   }
+
+  .-fs-xxl {
+    font-size: 17rem;
+  }
 }
-
-
-
 
 .-uppercase {
   text-transform: uppercase;
@@ -125,6 +142,12 @@ h1 {
 
 
 @keyframes dwall {
+  0% {transform:translateY(0);}
+  49% {transform:translateY(20px);}
+  100% { transform:translateY(0);}
+}
+
+@keyframes dwallDesktop {
   0% {transform:translateY(0);}
   49% {transform:translateY(320px);}
   100% { transform:translateY(0);}

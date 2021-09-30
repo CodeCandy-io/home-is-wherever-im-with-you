@@ -4,11 +4,11 @@
 }
 
 .o-greeting--canvas {
-  transform: scale(2);
+  transform: scale(1.5);
   position: absolute;
   width: 100%;
   right: 0;
-  bottom: 220px;
+  bottom: 0;
   left: 0;
   pointer-events: none;
   z-index: 1;
@@ -48,6 +48,10 @@
 .o-greeting__hand--icon img {
   max-width: 200px;
   height: auto;
+}
+
+.o-greeting__hand--hight-five-icon {
+  margin-left: 32px;
 }
 
 .o-greeting__hand--line {
@@ -93,5 +97,14 @@
   .o-greeting__hand--icon img {
     max-width: 280px;
     height: auto;
+  }
+
+  .o-greeting--canvas {
+    transform: scale(2);
+    bottom: 220px;
+  }
+
+  .o-greeting__hand--hight-five-icon {
+    margin-left: 0;
   }
 }

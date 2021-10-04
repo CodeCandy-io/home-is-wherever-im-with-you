@@ -32,7 +32,7 @@ What we do section styles
   .o-who-we-are {
     flex-direction: row;
     justify-content: center;
-    margin: 0 auto 320px;
+    margin: 320px auto 90px;
     padding: 0;
   }
   

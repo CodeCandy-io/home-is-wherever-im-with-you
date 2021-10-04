@@ -47,6 +47,50 @@
   font-size: var(--fs-s-l);
 }
 
+/*COPY TO CLIPBOARD*/
+
+.o-footer__copy-wrapper {
+  position: relative;
+  max-width: 420px;
+}
+
+.o-footer__copy-email {
+  transition: background-color 180ms ease-in-out;
+  appearance: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  font-size: var(--fs-m-l);
+  color: var(--nuclear);
+  fill: #fff;
+}
+
+.o-footer__copy-email svg {
+  margin-left: 8px;
+}
+
+.o-footer__copy-email:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.o-footer__copy-email--success {
+  display: none;
+}
+
+.-is-visible {
+  display: block;
+  animation-name: itsCopied;
+  animation-duration: 1600ms;
+  animation-iteration-count: once;
+  animation-timing-function: linear;
+  position: absolute;
+  right: 0;
+}
+
 .o-footer__credits--logo { 
   display: flex;
   flex-direction: column;

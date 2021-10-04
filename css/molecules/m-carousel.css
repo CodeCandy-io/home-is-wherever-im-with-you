@@ -1,0 +1,72 @@
+.m-carousel .owl-stage {
+  display: flex;
+}
+
+.m-carousel .owl-nav {
+  display: none;
+}
+
+.m-carousel .owl-dots {
+  margin-top: 48px;
+}
+
+.m-carousel .owl-dot {
+  transition: opacity 280ms ease-in-out;
+  position: relative;
+  appearance: none;
+  margin: 8px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0.3;
+}
+
+.m-carousel .owl-dot:hover {
+  opacity: 0.6;
+}
+
+.m-carousel .owl-dots .active {
+  opacity: 1;
+}
+
+.m-carousel .owl-dot:before {
+  position: relative;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 25px;
+  left: 11px;
+}
+
+/*CUSTOM CLASESS*/
+
+.m-carousel {
+  text-align: center;
+  padding: 70px 16px;
+}
+
+.m-carousel__item {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0 48px;
+  text-align: left;
+  color: #fff;
+}
+
+.m-carousel__item--title {
+  font-size: var(--fs-l-s);
+}
+
+.m-carousel__item--description {
+  font-size: var(--fs-l-s);
+}
+
+@media screen and (min-width: 720px) {
+  .m-carousel {
+    padding: 220px 16px;
+  }
+}

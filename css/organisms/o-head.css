@@ -44,7 +44,7 @@ HEAD STYLES
 @media screen and (min-width: 820px) {
   .o-head {
     max-width: 1000px;
-    margin: 96px 32px;
+    margin: 120px 32px;
   }
 
   .o-head__scroll-hint {
@@ -64,6 +64,7 @@ HEAD STYLES
 @media screen and (min-width: 1200px) {
   .o-head {
     max-width: 1600px;
+    margin: 220px 32px 120px;
   }
 }
 

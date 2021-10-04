@@ -281,7 +281,7 @@ function initOwl() {
     center: true,
     items: 1,
     dotsEach: 1,
-    autoHeight: true,
+    autoHeight: true
   })
 }
 

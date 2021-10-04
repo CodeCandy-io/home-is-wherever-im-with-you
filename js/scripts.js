@@ -280,7 +280,8 @@ function initOwl() {
     dots: true,
     center: true,
     items: 1,
-    dotsEach: 1
+    dotsEach: 1,
+    autoHeight: true,
   })
 }
 
@@ -318,9 +319,7 @@ function copyToClipboard(text, el) {
   setTimeout(function () { 
     $('.o-footer__copy-email--success').removeClass('-is-visible');
   }, 1500);
-
 }
-
 
 $(document).ready(function(){
   // we call the function

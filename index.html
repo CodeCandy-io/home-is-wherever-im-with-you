@@ -14,9 +14,22 @@
     <meta property="og:description" content="codeCandy digital products">
     <meta property="og:image" content="">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <script src="//embed.typeform.com/next/embed.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VZWG9FGKH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9VZWG9FGKH');
+    </script>
   </head>
 
   <body>
@@ -42,8 +55,8 @@
     <main class="o-inner">
       <div class="o-head">
         <img class="a-candy-icon a-candy-icon--top-xxs a-candy-icon--left-m" src="images/ic-emoji-candy.png">
-        <img class="a-candy-icon a-candy-icon--top-s a-candy-icon--left-l" src="images/ic-emoji-sweet.png">
-        <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-m" src="images/ic-emoji-candy.png">
+        <img class="a-candy-icon a-candy-icon--top-s a-candy-icon--left-l" src="images/ic-emoji-laptop.png">
+        <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-m" src="images/ic-emoji-sweet.png">
         <img class="a-candy-icon a-candy-icon--top-ls a-candy-icon--left-lm" src="images/ic-emoji-chocolate.png">
         <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-xs" src="images/ic-emoji-lollipop.png">
         <div class="o-head__scroll-hint">
@@ -51,11 +64,11 @@
           <img class="o-head__scroll-hint--arrow" src="images/ic-arrow-dow.svg">
         </div>
         <h2 class="-fs-xxl">
-          <span class="-font-alternative -font-alternative--contracted  -c-acid">Yummy<br></span>
-          <span class="-uppercase -c-nuclear">digital<br> products<br>and<br>experiences</span>
+          <span class="-c-nuclear"><span class="-uppercase">Build the<br></span><span class="-font-alternative -c-acid">eyecandy<br>
+          </span><span class="-uppercase">digital<br>product<br> you <br>dream of</span>
         </h2>
       </div>
-
+<!-- 
       <div class="o-quote -fade-in">
         <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-xs" src="images/ic-emoji-sweet.png">
         <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-l" src="images/ic-emoji-lollipop.png">
@@ -67,16 +80,19 @@
           </svg>            
           <p class="o-quote__text -uppercase -c-nuclear">Small squads move faster</p>
         </div>
-      </div>
+      </div> -->
 
       <div class="o-who-we-are -fade-in">
-        <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-xs" src="images/ic-emoji-chocolate.png">
+        <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-xs" src="images/ic-emoji-cell.png">
         <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-l" src="images/ic-emoji-candy.png">
         <img class="a-candy-icon a-candy-icon--top-xl a-candy-icon--left-m" src="images/ic-emoji-sweet.png">
-        <h3 class="o-who-we-are--title -c-nuclear -font-alternative ">The nerdy guys of the <img src="images/ic-emoji-nerd.png"> class working on your side</h3>
+        <h3 class="o-who-we-are--title -c-nuclear">So you need to hire a digital studio…</h3>
         <div class="o-who-we-are--description">
-          <p class="-c-nuclear">When launching a new product or business online it is crucial to <b>validate whether it connects with your users.</b> Prototypes and MVPs (minimum viable products) are great for testing your business model while minimizing upfront costs.</p>
-          <p class="-c-nuclear">Our talent at the service of your users to match their needs today with your long-term vision.</p>
+          <p class="-c-nuclear">We know there are two things you want to save: <b class="-c-acid">time, and money</b>.
+            If you know it is crucial to validate whether your idea or product connects with your users, we can help developing fast serving
+            prototypes and minimum viable products that are great for testing your business model while minimizing upfront costs.
+          </p>
+          <p class="-c-nuclear">Our talent at the service of your users to match their current needs with your long-term vision.</p>
         </div>
       </div>
 
@@ -96,22 +112,19 @@
 
       <div class="o-skills -inverted js-what-we-do-anchor">
         <div class="-fade-in">
-          <img class="a-candy-icon a-candy-icon--top-xxs a-candy-icon--left-m" src="images/ic-emoji-candy.png">
-          <p class="a-label -uppercase -c-acid">In few words, we can:</p>
+          <img class="a-candy-icon a-candy-icon--top-xxs a-candy-icon--left-m" src="images/ic-emoji-cell.png">
+          <p class="a-label -uppercase -c-acid">In a few words, we can:</p>
           <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-xs" src="images/ic-emoji-chocolate.png">
           <div class="o-skills__wrapper">
-            <ol class="o-skills__list -uppercase">
-              <li class="o-skills__list--item -fade-in">Tailor your product design</li> 
-              <li class="o-skills__list--item -fade-in">Develop minimum viable products (MVP) and proof of concepts (POC)
+            <ol class="o-skills__list">
+              <li class="o-skills__list--item -fade-in">Design tailored product for you</li>
+              <li class="o-skills__list--item -fade-in">Deliver minimum viable products (MVP) and proof of concepts (POC)
+              <li class="o-skills__list--item -fade-in">Develop nice, scalable and solid software</li>
               <li class="o-skills__list--item -fade-in">Drive user research</li>
-              <li class="o-skills__list--item -fade-in">Reduce tech debt</li>
-              <li class="o-skills__list--item -fade-in">Validate usability</li>
+              <li class="o-skills__list--item -fade-in">Integrations development</li>
+              <li class="o-skills__list--item -fade-in">Oprtimize CRO and marketing</li>
               <li class="o-skills__list--item -fade-in">Build a narrative & brand design</li>
-              <li class="o-skills__list--item -fade-in">Reduct tech costs</li>
-              <li class="o-skills__list--item -fade-in">Offer CPO as a service</li>
               <li class="o-skills__list--item -fade-in">Design a consistent user experience</li>
-              <li class="o-skills__list--item -fade-in">Optimize your infrastructure</li>
-              <li class="o-skills__list--item -fade-in">Design beautiful and human centered interfaces</li>
               <!--<li class="o-skills__list--item -fade-in">Product design and development</li> 
               <li class="o-skills__list--item -fade-in">Minimum viable product (MVP) and proof of concept (POC) development
               <li class="o-skills__list--item -fade-in">Reduce tech debt</li>
@@ -124,16 +137,16 @@
               <li class="o-skills__list--item -fade-in">Art direction</li>
             </ol>-->
             </ol>
-            <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-l" src="images/ic-emoji-sweet.png">
-            <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-m" src="images/ic-emoji-lollipop.png">
-            <h3 class="o-skills__description -fade-in">We design strategies that integrate with your product's rhythm and lifecycle to build meaningful and user-friendly experiences that
-              connect with your users' heart. Just like candy does.
-            </h3>
+            <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-l" src="images/ic-emoji-candy.png">
+            <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-lm" src="images/ic-emoji-laptop.png">
+            <img class="a-candy-icon a-candy-icon--top-xl a-candy-icon--left-s" src="images/ic-emoji-sweet.png">
+            <h3 class="o-skills__description -fade-in">Hire a studio that connects with your product's rythm and lifecycle to build meaningful and human-centered experiences that
+              will reach your users' heart. Just like candy does.</h3>
           </div>
         </div>
       </div>
 
-      <div class="o-quote -fade-in">
+      <!-- <div class="o-quote -fade-in">
         <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-s" src="images/ic-emoji-sweet.png">
         <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-s" src="images/ic-emoji-chocolate.png">
         <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-l" src="images/ic-emoji-lollipop.png">
@@ -145,13 +158,13 @@
           </svg>           
           <p class="o-quote__text o-quote__text--circle -uppercase -c-nuclear">We are not a studio that only designs and codes. We <b>transform code and design into a unique experience for your users.</b></p>
         </div>
-      </div>
+      </div> -->
 
       <div class="o-reel -fade-in js-why-anchor">
-        <p class="a-label -uppercase -c-acid">But…</p>
+        <p class="a-label -uppercase -c-acid">You may wondering…</p>
         <h3 class="o-reel--title o-reel--title-reset -uppercase -c-nuclear">Why would you trust us with your product?</h3>
         <div class="o-reel__showcase">
-          <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-m" src="images/ic-emoji-sweet.png">
+          <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-m" src="images/ic-emoji-cell.png">
           <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-l" src="images/ic-emoji-chocolate.png">
           <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-xs" src="images/ic-emoji-lollipop.png">
           <img class="a-candy-icon a-candy-icon--top-xl a-candy-icon--left-m" src="images/ic-emoji-candy.png">
@@ -161,18 +174,41 @@
               <path d="M124.334 310.077L122.87 307.458L124.334 310.077ZM113.287 253.584L114.459 256.345L113.287 253.584ZM372.364 402.99C373.996 403.279 375.084 404.835 374.795 406.467L370.087 433.053C369.799 434.685 368.242 435.773 366.61 435.484C364.979 435.195 363.89 433.639 364.179 432.007L368.364 408.375L344.732 404.19C343.1 403.901 342.012 402.345 342.301 400.713C342.589 399.082 344.146 397.993 345.778 398.282L372.364 402.99ZM88.4953 50.4124C57.7118 100.073 43.882 177.832 49.4809 236.618C52.2866 266.077 59.916 290.128 72.1282 303.559C78.1604 310.193 85.2509 314.179 93.4672 315.082C101.731 315.991 111.489 313.82 122.87 307.458L125.798 312.696C113.681 319.469 102.666 322.13 92.8114 321.046C82.9093 319.957 74.5361 315.126 67.6888 307.595C54.1421 292.696 46.3497 267.025 43.5079 237.187C37.8119 177.381 51.784 98.248 83.3956 47.2512L88.4953 50.4124ZM122.87 307.458C138.001 299.001 147.417 290.259 152.476 282.383C157.528 274.519 158.129 267.735 156.189 262.761C154.251 257.793 149.492 253.892 142.256 252.35C135.008 250.807 125.411 251.696 114.459 256.345L112.114 250.822C123.923 245.81 134.788 244.625 143.506 246.482C152.235 248.341 158.944 253.314 161.779 260.58C164.611 267.84 163.289 276.651 157.524 285.626C151.766 294.59 141.471 303.935 125.798 312.696L122.87 307.458ZM114.459 256.345C84.8167 268.928 71.6428 293.934 71.9778 322.26C72.3147 350.748 86.3672 382.627 111.483 408.065C136.557 433.461 172.534 452.303 216.5 454.851C260.458 457.399 312.646 443.669 370.122 403.485L373.56 408.403C315.197 449.206 261.701 463.481 216.153 460.841C170.614 458.202 133.264 438.666 107.214 412.281C81.2058 385.939 66.3366 352.636 65.9782 322.331C65.6178 291.864 79.975 264.465 112.114 250.822L114.459 256.345Z" fill="#52ED80"/>
             </svg>
           </div>
-          <div class="o-reel__showcase--description -fade-in">
-            <p class="-acided">
-              We have been working in many high class projects in different companies and we decided to join together to help companies
-              prioritize and develop apps based on the things we've learned, as well as avoid the common mistakes made when creating new products.
-            </p>
-          </div>
+          <p class="o-reel__showcase--description -fade-in">
+            1. Because no one other than entrepreneurs can understand the passion that we put developing products.
+            Work with a studio formed by founders that wants to share, grow hand in hand with you it's what will make your product shine.
+            <br>
+            <br>
+            2. Because we spent years working on tech startups and joined together
+            to develop apps using the insights we've learned, as well as guide entrepeneurs away from the common mistakes made when creating new products.
+          </p>
+          
         </div>
       </div>
 
+      <div class="m-carousel -fade-in">
+        <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-l" src="images/ic-emoji-laptop.png">
+        <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-m" src="images/ic-emoji-sweet.png">
+        <p class="a-label -uppercase -c-acid">We truly believe that…</p>
+        <div class="owl-carousel owl-theme">
+          <div class="m-carousel__item">
+            <h4 class="m-carousel__item--title -uppercase">Small squads move faster</h4>
+            <p class="m-carousel__item--description">Release early, release often. Validate soon, focus on what matters most and keep costs under control. </p>
+          </div>
+          <div class="m-carousel__item">
+            <h4 class="m-carousel__item--title -uppercase">Code with heart, design with the head</h4>
+            <p class="m-carousel__item--description">Work with a studio that don't just design and code. Instead, use code and design to reach business goals while creating a experience your users will love.</p>
+          </div>
+          <div class="m-carousel__item">
+            <h4 class="m-carousel__item--title -uppercase">Monitorize 'em all</h4>
+            <p class="m-carousel__item--description">Take advantage of research and validating techniques to measure and assure your product impacts as you planned.</p>
+          </div>
+        </div>
+      </div>
+      
       <div class="o-call-to-action -fade-in js-contact-anchor">
         <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-s" src="images/ic-emoji-lollipop.png">
-        <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-lm" src="images/ic-emoji-chocolate.png">
+        <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-lm" src="images/ic-emoji-cell.png">
         <p class="a-label -uppercase -c-acid">Give us a chance!</p>
         <img class="a-candy-icon a-candy-icon--top-ls a-candy-icon--left-m" src="images/ic-emoji-candy.png">
         <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-xs" src="images/ic-emoji-sweet.png">
@@ -182,14 +218,14 @@
           <span class="-fade-in">often the </span><br>
           <span class="-fade-in">hardest</span><br>
         </h3>
-        <a href="#" class="o-call-to-action--link a-link -c-nuclear -uppercase">To make it easier, consider this quiz our first meeting →</a>
+        <a href="https://pn3l1r2nuhm.typeform.com/to/pnJwphsw" target="_blank" class="o-call-to-action--link a-link -c-nuclear -uppercase">To make it easier, consider this quiz our first meeting →</a>
       </div>
 
       <div class="o-greeting -fade-in -inverted">
         <img class="a-candy-icon a-candy-icon--top-xxs a-candy-icon--left-xs" src="images/ic-emoji-lollipop.png">
         <img class="a-candy-icon a-candy-icon--top-xs a-candy-icon--left-l  " src="images/ic-emoji-sweet.png">
-        <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-lm" src="images/ic-emoji-lollipop.png">
-        <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-xs" src="images/ic-emoji-chocolate.png">
+        <img class="a-candy-icon a-candy-icon--top-l a-candy-icon--left-lm" src="images/ic-emoji-laptop.png">
+        <img class="a-candy-icon a-candy-icon--top-m a-candy-icon--left-xs" src="images/ic-emoji-cell.png">
         <img class="a-candy-icon a-candy-icon--top-ls a-candy-icon--left-m" src="images/ic-emoji-candy.png">
         <h2 class="-fs-xxl">
           <p class="-font-alternative -fade-in -c-acid">Hooray!</p>
@@ -216,8 +252,17 @@
     <footer class="o-footer -c-nuclear">
       <div class="o-footer__wrapper">
         <div class="o-footer__wrapper--about">
-          <p class="a-label -c-acid -uppercase">eMail us (copy and paste)</p>
-          <p>hi@codecandy.com</p>
+          <div class="o-footer__copy-wrapper">
+            <p class="a-label -c-acid -uppercase">eMail us (click to copy) </p>
+            <button type="button" class=" o-footer__copy-email js-copy" data-toggle="tooltip" data-placement="bottom" data-copy="hi@codecandy.com" title="Copy to clipboard">  
+              <p class="" href="mailto:hi@codecandy.com">hi@codecandy.com</p>
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M17,9H7V7H17M17,13H7V11H17M14,17H7V15H14M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3Z" />
+              </svg>
+            </button>
+            <div class="o-footer__copy-email--success -c-acid">Copied!</div>
+          </div>
+
           <p class="a-label -c-acid -uppercase">In Slack we trust</p>
           <p class="o-footer__wrapper--aim">codeCandy is a fully remote team so we don’t have an HQ, but we are based in Madrid, Spain. </p>
         </div>
@@ -237,5 +282,10 @@
         </div>
       </div>
     </footer>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+      });
+    </script>
   </body>
 </html>

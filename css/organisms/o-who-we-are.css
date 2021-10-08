@@ -32,7 +32,7 @@ What we do section styles
   .o-who-we-are {
     flex-direction: row;
     justify-content: center;
-    margin: 0 auto 320px;
+    margin: 320px auto 90px;
     padding: 0;
   }
   
@@ -49,5 +49,9 @@ What we do section styles
     margin: 0;
     padding-left: 16px;
     font-size: var(--fs-m-l);
+  }
+
+  .o-who-we-are--description .-acided {
+    font-size: var(--fs-m-l);   
   }
 }

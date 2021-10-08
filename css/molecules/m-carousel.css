@@ -34,8 +34,6 @@
 .m-carousel .owl-dot:before {
   transform: translateX(0);
   position: relative;
-  right: 11px;
-  left: 11px;
   content: "";
   display: block;
   width: 12px;

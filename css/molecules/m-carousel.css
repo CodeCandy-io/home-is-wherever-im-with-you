@@ -33,13 +33,14 @@
 
 .m-carousel .owl-dot:before {
   position: relative;
+  right: 11px;
+  left: 11px;
   content: "";
   display: block;
   width: 12px;
   height: 12px;
   background-color: #fff;
   border-radius: 25px;
-  left: 11px;
 }
 
 /*CUSTOM CLASESS*/

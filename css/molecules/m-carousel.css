@@ -32,12 +32,12 @@
 }
 
 .m-carousel .owl-dot:before {
-  transform: translateX(11px);
   position: relative;
-  content: "";
   display: block;
+  content: "";
   width: 12px;
   height: 12px;
+  margin: 0 auto;
   background-color: #fff;
   border-radius: 25px;
 }

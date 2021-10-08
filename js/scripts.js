@@ -278,7 +278,6 @@ function initOwl() {
   $('.owl-carousel').owlCarousel({
     loop: true,
     dots: true,
-    center: true,
     items: 1,
     dotsEach: 1,
     autoHeight: true

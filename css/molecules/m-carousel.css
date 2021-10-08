@@ -7,7 +7,7 @@
 }
 
 .m-carousel .owl-dots {
-  margin-top: 48px;
+  margin-top: 16px;
 }
 
 .m-carousel .owl-dot {
@@ -44,29 +44,56 @@
 
 /*CUSTOM CLASESS*/
 
+.owl-item {
+  opacity: 0.2;
+}
+
+.active {
+  opacity: 1;
+}
+
 .m-carousel {
   text-align: center;
   padding: 70px 16px;
 }
 
 .m-carousel__item {
-  width: 620px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 48px;
+  padding: 0;
   text-align: left;
   color: #fff;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .m-carousel__item--title {
-  font-size: var(--fs-l-s);
+  margin-top: 16px;
+  font-size: var(--fs-m-l);
 }
 
 .m-carousel__item--description {
-  font-size: var(--fs-l-s);
+  font-size: var(--fs-m);
+  font-family: var(--font-thin);
 }
 
 @media screen and (min-width: 720px) {
   .m-carousel {
     padding: 220px 16px;
   }
+
+  .m-carousel__item {
+    width: 620px;
+    padding: 0 48px;
+    text-align: left;
+  }
+
+  .m-carousel__item--title {
+    font-size: var(--fs-l-s);
+  }
+
+  .m-carousel__item--description {
+    font-size: var(--fs-l-s);
+  }
 }
+

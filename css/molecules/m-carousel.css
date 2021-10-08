@@ -32,7 +32,7 @@
 }
 
 .m-carousel .owl-dot:before {
-  transform: translateX(0);
+  transform: translateX(11px);
   position: relative;
   content: "";
   display: block;

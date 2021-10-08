@@ -33,7 +33,6 @@
 
 .m-carousel .owl-dot:before {
   transform: translate3d(0,0,0);
-  position: relative;
   display: block;
   content: "";
   width: 12px;

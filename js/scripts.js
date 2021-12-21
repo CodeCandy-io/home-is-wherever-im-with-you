@@ -26,7 +26,7 @@ function highFive(){
   const terminalVelocity = 3
   
   // init other global elements
-  const button = document.getElementById('button')
+  const button = document.getElementById('high-five')
   var disabled = false
   const canvas = document.getElementById('canvas')
   const ctx = canvas.getContext('2d')

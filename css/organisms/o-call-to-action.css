@@ -19,7 +19,7 @@
 	content: "";
 	height: 12px;
 	width: 100;
-	background-color: red;
+	background-color: magenta;
 }
 
 @media screen and (min-width: 1063px) {

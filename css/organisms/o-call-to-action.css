@@ -12,6 +12,14 @@
 	max-width: 320px;
 	font-size: var(--fs-m-l);
 	line-height: 1.33;
+	color: red;
+}
+
+.o-call-to-action--link::before {
+	content: "";
+	height: 12px;
+	width: 100;
+	background-color: red;
 }
 
 @media screen and (min-width: 1063px) {

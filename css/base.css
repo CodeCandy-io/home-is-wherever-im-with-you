@@ -44,6 +44,10 @@ h1 {
   font-size: 56px;
 }
 
+h2 {
+
+}
+
 /*FONT SIZEZ*/
 .-fs-xxl {
   font-size: 3.4rem
@@ -89,7 +93,7 @@ h1 {
 
 @media screen and (min-width: 1500px) {
    .-fs-xxl {
-    font-size: 17rem;
+    font-size: 14rem;
   }
 }
 

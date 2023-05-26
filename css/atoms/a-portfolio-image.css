@@ -1,0 +1,9 @@
+.a-portfolio-image {
+    max-width: 600px;
+}
+
+@media screen and (max-width: 400px) {
+    .a-portfolio-image {
+        max-width: 300px;
+    }
+}

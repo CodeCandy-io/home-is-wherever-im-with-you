@@ -320,6 +320,43 @@ function copyToClipboard(text, el) {
   }, 1500);
 }
 
+function postContactForm() {
+  let myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+  let requestOptions = {
+    method: "post",
+    headers: myHeaders,
+    redirect: "follow",
+    body: JSON.stringify({
+      "fields":[
+          {
+            "field":"email",
+            "value":"test@nocodeapi.com"
+          },
+          {
+            "field":"firstname",
+            "value":"Adrian"
+          },
+          {
+            "field":"lastname",
+            "value":"Mott"
+          },
+          {
+            "field":"message",
+            "value":""
+          }
+          ]})};
+
+  fetch("https://v1.nocodeapi.com/codecandyio/nForms/TkbWXnkrQHQmjpmI/data", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
+}
+
+function contactForm() {
+
+}
+
 $(document).ready(function(){
   // we call the function
   scrollFades();
